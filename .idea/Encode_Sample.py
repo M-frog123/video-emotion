@@ -29,6 +29,14 @@ for x in range(pd_reader_video.shape[0]):
     video_tail = str(video_tail).replace("'",'')
     exciting_value = pd_reader_exciting.loc[video_tail][0]
     funny_value = pd_reader_funny.loc[video_tail][0]
+    if exciting_value > 0.5:
+        exciting_value = 1
+    else:
+        exciting_value = 0
+    if funny_value > 0.5:
+        funny_value = 1
+    else:
+        funny_value = 0
     Y_list.append([exciting_value,funny_value])
     image_folder = sample_path+video_tail + "/"
     video_frames = []

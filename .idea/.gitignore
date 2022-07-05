@@ -10,7 +10,6 @@
 /encodings.xml
 /final_video_id_list.csv
 /load_CLIP.py
-/load_LSTM.py
 /load_RCNN.py
 /vcs.xml
 /video_Exciting_clean.json

@@ -23,7 +23,7 @@ samples = tf.keras.preprocessing.image_dataset_from_directory(
     image_size=(224,224),
     seed=random_seed,
     subset="training",
-    validation_split = 0.2,
+    validation_split = 0.8,
     batch_size=BATCH_SIZE,
     labels = None
 )

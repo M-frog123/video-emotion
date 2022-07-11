@@ -19,5 +19,10 @@
 /misc.xml
 /CLIP_DATA/
 /tmp/
+/vae_train_cache.data-00000-of-00001
+/vae_train_cache.index
+/video_Funny_clean.json
+../Deeplearningstudy.iml
 
 
+/archive_videos/

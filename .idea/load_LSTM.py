@@ -17,6 +17,7 @@ from glob import glob
 from tqdm import tqdm
 from keras.preprocessing.sequence import TimeseriesGenerator
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix
 
 IMG_SIZE = 224
 EPOCHS = 100
@@ -39,31 +40,55 @@ x_train, x_test, y_train, y_test = train_test_split(
     train_data,train_value,test_size=0.15
 )
 
-print(x_train.shape)
-print(x_test.shape)
+# print(x_train.shape)
+# print(x_test.shape)
 
-model = models.Sequential(
-    [
-        layers.Input(shape=(40,20)),
-        layers.Masking(0.,input_shape=(40,20)),
-        layers.LSTM(64),
-        layers.Dense(2, activation="sigmoid"),
-    ]
-)
+# print(y_test)
 
-model.summary()
-model.compile(loss='binary_crossentropy',
-              optimizer='adagrad',
-              metrics=['accuracy'])
 
-model.fit(
-    x_train,
-    y_train,
-    batch_size=BATCH_SIZE,
-    epochs=EPOCHS,
-    validation_split=0.1
-)
+# model = models.Sequential(
+#     [
+#         layers.Input(shape=(40,20)),
+#         layers.Masking(0.,input_shape=(40,20)),
+#         layers.LSTM(64,return_sequences=True),
+#         layers.LSTM(32,return_sequences=True),
+#         layers.Dropout(0.2),
+#         layers.LSTM(16),
+#         layers.Dense(2, activation="sigmoid"),
+#     ]
+# )
+#
+# model.summary()
+# model.compile(loss='binary_crossentropy',
+#               optimizer='adam',
+#               metrics=['accuracy'])
+#
+# model.fit(
+#     x_train,
+#     y_train,
+#     batch_size=BATCH_SIZE,
+#     epochs=EPOCHS,
+#     validation_split=0.1
+# )
+#
+# model.save('LSTM_model')
+
+model = keras.models.load_model('LSTM_model')
+
+excitement_labels = y_test[:,0]
+funny_labels = y_test[:,1]
+
+print(sum(excitement_labels))
+print(sum(funny_labels))
 
 score = model.evaluate(x_test, y_test, verbose=0)
+y_score = model.predict(x_test)
+
+max_prob=np.argmax(y_score, axis=1)
+excitement_labels = y_test[:,0]
+funny_labels = y_test[:,1]
+print(confusion_matrix(max_prob,excitement_labels))
+print(confusion_matrix(max_prob,funny_labels))
+
 print("Test loss:", score[0])
 print("Test accuracy:", score[1])

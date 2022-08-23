@@ -8,11 +8,11 @@ import pandas as pd
 from pathlib import Path
 import cv2
 
-IMG_SIZE = 224
-MAX_SEQ_LENGTH = 40
+IMG_SIZE = 216
+MAX_SEQ_LENGTH = 100
 EPOCHES = 50
-BATCH_SIZE = 128
-latent_dim = 20
+BATCH_SIZE = 4
+latent_dim = 512
 sample_path = "./images/"
 random_seed = random.randint(1,1000000)
 
@@ -20,11 +20,12 @@ pd_reader = pd.read_csv("./videos/video_list.csv",header=None)
 
 samples = tf.keras.preprocessing.image_dataset_from_directory(
     sample_path,
-    image_size=(224,224),
+    image_size=(216,216),
     seed=random_seed,
     subset="training",
     validation_split = 0.8,
     batch_size=BATCH_SIZE,
+    label_mode = None,
     labels = None
 )
 
@@ -57,11 +58,11 @@ class Sampling(layers.Layer):
 
 
 def build_encoder(latent_dim):
-    latent_dim = 20
-    encoder_inputs = keras.Input(shape=(IMG_SIZE, IMG_SIZE, 3))
-    x = layers.Conv2D(32, 3, activation="relu", strides=2, padding="same")(encoder_inputs)
+    encoder_inputs = keras.Input(shape=(216, 216, 3))
+    x = layers.Conv2D(16, 3, activation="relu", strides=3, padding="same")(encoder_inputs)
+    x = layers.Conv2D(32, 3, activation="relu", strides=2, padding="same")(x)
     x = layers.Conv2D(64, 3, activation="relu", strides=2, padding="same")(x)
-    x = layers.Conv2D(64, 3, activation="relu", strides=2, padding="same")(x)
+    x = layers.Conv2D(128, 3, activation="relu", strides=2, padding="same")(x)
     x = layers.Flatten()(x)
     x = layers.Dense(latent_dim+latent_dim)(x)
     z_mean = layers.Dense(latent_dim, name="z_mean")(x)
@@ -71,13 +72,13 @@ def build_encoder(latent_dim):
     return encoder
 
 def build_decoder(latent_dim):
-    latent_dim = 20
     latent_inputs = keras.Input(shape=(latent_dim,))
-    x = layers.Dense(28 * 28 * 64, activation="relu")(latent_inputs)
-    x = layers.Reshape((28, 28, 64))(x)
-    x = layers.Conv2DTranspose(64, 3, activation="relu", strides=2, padding="same")(x)
+    x = layers.Dense(9 * 9 * 128, activation="relu")(latent_inputs)
+    x = layers.Reshape((9, 9, 128))(x)
+    x = layers.Conv2DTranspose(128, 3, activation="relu", strides=2, padding="same")(x)
     x = layers.Conv2DTranspose(64, 3, activation="relu", strides=2, padding="same")(x)
     x = layers.Conv2DTranspose(32, 3, activation="relu", strides=2, padding="same")(x)
+    x = layers.Conv2DTranspose(16, 3, activation="relu", strides=3, padding="same")(x)
     decoder_outputs = layers.Conv2DTranspose(3, 3, strides=1, padding="same")(x)
     decoder = keras.Model(latent_inputs, decoder_outputs, name="decoder")
     return decoder
@@ -134,12 +135,12 @@ class VAE(Model):
         }
 
 
-encoder = build_encoder(latent_dim)
-decoder = build_decoder(latent_dim)
+# encoder = build_encoder(latent_dim)
+# decoder = build_decoder(latent_dim)
 
 
-# encoder = keras.models.load_model('vae_encoder')
-# decoder = keras.models.load_model('vae_decoder')
+encoder = keras.models.load_model('vae_encoder')
+decoder = keras.models.load_model('vae_decoder')
 
 encoder.summary()
 decoder.summary()
@@ -151,7 +152,7 @@ def get_model(encoder,decoder):
 
 vae = get_model(encoder,decoder)
 vae.fit(normalized_samples,epochs=EPOCHES,batch_size=BATCH_SIZE)
-vae.build((None,224,224,3))
+vae.build((None,216,216,3))
 
 encoder.compile(optimizer='adam')
 decoder.compile(optimizer='adam')

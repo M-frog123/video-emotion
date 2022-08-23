@@ -1,0 +1,720 @@
+
+SampleType: TIME	Sample rate: 30	Sample Context: 0Model Type: SVM
+Avg samples: 45.96097096620657
+Excite Recall: 0.5286343612334802	Excite Prec: 0.5172413793103449	 Excite F1:0.5228758169934641
+
+Funny Recall: 0.42424242424242425	Funny Prec: 0.4540540540540541	 Funny F1:0.4386422976501305
+
+SampleType: TIME	Sample rate: 30	Sample Context: 0Model Type: LSTM
+Avg samples: 45.96097096620657
+Excite Recall: 0.7051282051282052	Excite Prec: 0.6470588235294118	 Excite F1:0.6748466257668712
+
+Funny Recall: 0.7012195121951219	Funny Prec: 0.696969696969697	 Funny F1:0.6990881458966565
+
+SampleType: TIME	Sample rate: 30	Sample Context: 1Model Type: SVM
+Avg samples: 45.88100904331271
+Excite Recall: 0.5877192982456141	Excite Prec: 0.575107296137339	 Excite F1:0.5813449023861171
+
+Funny Recall: 0.465	Funny Prec: 0.47692307692307695	 Funny F1:0.47088607594936716
+
+SampleType: TIME	Sample rate: 30	Sample Context: 1Model Type: LSTM
+Avg samples: 45.88100904331271
+Excite Recall: 0.6374501992031872	Excite Prec: 0.6896551724137931	 Excite F1:0.6625258799171844
+Funny Recall: 0.6978021978021978	Funny Prec: 0.6902173913043478	 Funny F1:0.6939890710382512
+
+SampleType: TIME	Sample rate: 30	Sample Context: 3Model Type: SVM
+Avg samples: 45.80437886720609
+Excite Recall: 0.5677966101694916	Excite Prec: 0.5851528384279476	 Excite F1:0.5763440860215054
+Funny Recall: 0.5408163265306123	Funny Prec: 0.5520833333333334	 Funny F1:0.5463917525773196
+
+SampleType: TIME	Sample rate: 30	Sample Context: 3Model Type: LSTM
+Avg samples: 45.80437886720609
+Excite Recall: 0.6340425531914894	Excite Prec: 0.6340425531914894	 Excite F1:0.6340425531914894
+Funny Recall: 0.6994219653179191	Funny Prec: 0.6302083333333334	 Funny F1:0.663013698630137
+
+SampleType: TIME	Sample rate: 60	Sample Context: 0Model Type: SVM
+Avg samples: 23.226558781532603
+Excite Recall: 0.6016949152542372	Excite Prec: 0.6016949152542372	 Excite F1:0.6016949152542372
+Funny Recall: 0.4011299435028249	Funny Prec: 0.3776595744680851	 Funny F1:0.38904109589041097
+
+SampleType: TIME	Sample rate: 60	Sample Context: 0Model Type: LSTM
+Avg samples: 23.226558781532603
+Excite Recall: 0.5941422594142259	Excite Prec: 0.6454545454545455	 Excite F1:0.6187363834422659
+Funny Recall: 0.6735751295336787	Funny Prec: 0.6878306878306878	 Funny F1:0.6806282722513088
+
+SampleType: TIME	Sample rate: 60	Sample Context: 1Model Type: SVM
+Avg samples: 23.1722989052832
+Excite Recall: 0.6096491228070176	Excite Prec: 0.6289592760180995	 Excite F1:0.6191536748329621
+Funny Recall: 0.5226130653266332	Funny Prec: 0.5875706214689266	 Funny F1:0.5531914893617021
+
+SampleType: TIME	Sample rate: 60	Sample Context: 1Model Type: LSTM
+Avg samples: 23.1722989052832
+Excite Recall: 0.6239316239316239	Excite Prec: 0.6239316239316239	 Excite F1:0.6239316239316239
+Funny Recall: 0.6868131868131868	Funny Prec: 0.6906077348066298	 Funny F1:0.6887052341597796
+
+SampleType: TIME	Sample rate: 60	Sample Context: 3Model Type: SVM
+Avg samples: 23.118039029033792
+Excite Recall: 0.6194690265486725	Excite Prec: 0.5857740585774058	 Excite F1:0.6021505376344085
+Funny Recall: 0.478494623655914	Funny Prec: 0.5085714285714286	 Funny F1:0.4930747922437673
+
+SampleType: TIME	Sample rate: 60	Sample Context: 3Model Type: LSTM
+Avg samples: 23.118039029033792
+Excite Recall: 0.6745098039215687	Excite Prec: 0.7136929460580913	 Excite F1:0.6935483870967744
+Funny Recall: 0.7425149700598802	Funny Prec: 0.6850828729281768	 Funny F1:0.7126436781609196
+
+SampleType: TIME	Sample rate: 90	Sample Context: 0Model Type: SVM
+Avg samples: 15.659209900047596
+Excite Recall: 0.5611814345991561	Excite Prec: 0.5541666666666667	 Excite F1:0.5576519916142557
+Funny Recall: 0.48756218905472637	Funny Prec: 0.5764705882352941	 Funny F1:0.5283018867924528
+
+SampleType: TIME	Sample rate: 90	Sample Context: 0Model Type: LSTM
+Avg samples: 15.659209900047596
+Excite Recall: 0.7227272727272728	Excite Prec: 0.673728813559322	 Excite F1:0.6973684210526315
+Funny Recall: 0.7	Funny Prec: 0.7074468085106383	 Funny F1:0.7037037037037037
+
+SampleType: TIME	Sample rate: 90	Sample Context: 1Model Type: SVM
+Avg samples: 15.612089481199428
+Excite Recall: 0.6383928571428571	Excite Prec: 0.6190476190476191	 Excite F1:0.6285714285714284
+Funny Recall: 0.5621301775147929	Funny Prec: 0.5191256830601093	 Funny F1:0.5397727272727273
+
+SampleType: TIME	Sample rate: 90	Sample Context: 1Model Type: LSTM
+Avg samples: 15.612089481199428
+Excite Recall: 0.7216981132075472	Excite Prec: 0.6483050847457628	 Excite F1:0.6830357142857143
+Funny Recall: 0.6098901098901099	Funny Prec: 0.6491228070175439	 Funny F1:0.6288951841359773
+
+SampleType: TIME	Sample rate: 90	Sample Context: 3Model Type: SVM
+Avg samples: 15.570680628272251
+Excite Recall: 0.5862068965517241	Excite Prec: 0.5938864628820961	 Excite F1:0.5900216919739696
+Funny Recall: 0.5652173913043478	Funny Prec: 0.5683060109289617	 Funny F1:0.5667574931880108
+
+SampleType: TIME	Sample rate: 90	Sample Context: 3Model Type: LSTM
+Avg samples: 15.570680628272251
+Excite Recall: 0.6157205240174672	Excite Prec: 0.6527777777777778	 Excite F1:0.6337078651685394
+Funny Recall: 0.7222222222222222	Funny Prec: 0.6735751295336787	 Funny F1:0.6970509383378016
+
+SampleType: TIME	Sample rate: 150	Sample Context: 0Model Type: SVM
+Avg samples: 9.580675868633984
+Excite Recall: 0.5854700854700855	Excite Prec: 0.6171171171171171	 Excite F1:0.6008771929824561
+Funny Recall: 0.5526315789473685	Funny Prec: 0.5898876404494382	 Funny F1:0.5706521739130436
+
+SampleType: TIME	Sample rate: 150	Sample Context: 0Model Type: LSTM
+Avg samples: 9.580675868633984
+Excite Recall: 0.639344262295082	Excite Prec: 0.6446280991735537	 Excite F1:0.6419753086419753
+Funny Recall: 0.7272727272727273	Funny Prec: 0.6349206349206349	 Funny F1:0.6779661016949152
+
+SampleType: TIME	Sample rate: 150	Sample Context: 1Model Type: SVM
+Avg samples: 9.544978581627797
+Excite Recall: 0.6212765957446809	Excite Prec: 0.6488888888888888	 Excite F1:0.6347826086956522
+Funny Recall: 0.6063829787234043	Funny Prec: 0.5588235294117647	 Funny F1:0.5816326530612246
+
+SampleType: TIME	Sample rate: 150	Sample Context: 1Model Type: LSTM
+Avg samples: 9.544978581627797
+Excite Recall: 0.7088607594936709	Excite Prec: 0.691358024691358	 Excite F1:0.7
+Funny Recall: 0.6946107784431138	Funny Prec: 0.6137566137566137	 Funny F1:0.651685393258427
+
+SampleType: TIME	Sample rate: 150	Sample Context: 3Model Type: SVM
+Avg samples: 9.513564969062351
+Excite Recall: 0.6408163265306123	Excite Prec: 0.6624472573839663	 Excite F1:0.6514522821576764
+Funny Recall: 0.6271186440677966	Funny Prec: 0.6166666666666667	 Funny F1:0.6218487394957983
+
+SampleType: TIME	Sample rate: 150	Sample Context: 3Model Type: LSTM
+Avg samples: 9.513564969062351
+Excite Recall: 0.6547619047619048	Excite Prec: 0.6846473029045643	 Excite F1:0.6693711967545638
+Funny Recall: 0.6666666666666666	Funny Prec: 0.7065217391304348	 Funny F1:0.6860158311345645
+
+SampleType: TIME	Sample rate: 300	Sample Context: 0Model Type: SVM
+Avg samples: 5.060923369823893
+Excite Recall: 0.5856573705179283	Excite Prec: 0.6475770925110133	 Excite F1:0.6150627615062763
+Funny Recall: 0.5257142857142857	Funny Prec: 0.5508982035928144	 Funny F1:0.5380116959064327
+
+SampleType: TIME	Sample rate: 300	Sample Context: 0Model Type: LSTM
+Avg samples: 5.060923369823893
+Excite Recall: 0.6666666666666666	Excite Prec: 0.7368421052631579	 Excite F1:0.7
+Funny Recall: 0.6617647058823529	Funny Prec: 0.75	 Funny F1:0.7031250000000001
+
+SampleType: TIME	Sample rate: 300	Sample Context: 1Model Type: SVM
+Avg samples: 5.043312708234174
+Excite Recall: 0.6587301587301587	Excite Prec: 0.6916666666666667	 Excite F1:0.6747967479674796
+Funny Recall: 0.6783625730994152	Funny Prec: 0.6170212765957447	 Funny F1:0.6462395543175488
+
+SampleType: TIME	Sample rate: 300	Sample Context: 1Model Type: LSTM
+Avg samples: 5.043312708234174
+Excite Recall: 0.6470588235294118	Excite Prec: 0.6903765690376569	 Excite F1:0.6680161943319838
+Funny Recall: 0.6310160427807486	Funny Prec: 0.6742857142857143	 Funny F1:0.6519337016574586
+
+SampleType: TIME	Sample rate: 300	Sample Context: 3Model Type: SVM
+Avg samples: 5.021418372203713
+Excite Recall: 0.6218487394957983	Excite Prec: 0.6577777777777778	 Excite F1:0.6393088552915767
+Funny Recall: 0.711764705882353	Funny Prec: 0.6722222222222223	 Funny F1:0.6914285714285715
+
+SampleType: TIME	Sample rate: 300	Sample Context: 3Model Type: LSTM
+Avg samples: 5.021418372203713
+Excite Recall: 0.6476868327402135	Excite Prec: 0.7368421052631579	 Excite F1:0.6893939393939394
+Funny Recall: 0.6266666666666667	Funny Prec: 0.7663043478260869	 Funny F1:0.6894865525672371
+
+SampleType: TIME	Sample rate: 450	Sample Context: 0Model Type: SVM
+Avg samples: 3.530223702998572
+Excite Recall: 0.5737051792828686	Excite Prec: 0.6486486486486487	 Excite F1:0.6088794926004228
+Funny Recall: 0.5941176470588235	Funny Prec: 0.5642458100558659	 Funny F1:0.5787965616045846
+
+SampleType: TIME	Sample rate: 450	Sample Context: 0Model Type: LSTM
+Avg samples: 3.530223702998572
+Excite Recall: 0.6477732793522267	Excite Prec: 0.6666666666666666	 Excite F1:0.6570841889117043
+Funny Recall: 0.6643356643356644	Funny Prec: 0.47738693467336685	 Funny F1:0.5555555555555556
+
+SampleType: TIME	Sample rate: 450	Sample Context: 1Model Type: SVM
+Avg samples: 3.510233222275107
+Excite Recall: 0.6302521008403361	Excite Prec: 0.6437768240343348	 Excite F1:0.6369426751592356
+Funny Recall: 0.6727272727272727	Funny Prec: 0.555	 Funny F1:0.6082191780821918
+
+SampleType: TIME	Sample rate: 450	Sample Context: 1Model Type: LSTM
+Avg samples: 3.510233222275107
+Excite Recall: 0.6403162055335968	Excite Prec: 0.680672268907563	 Excite F1:0.6598778004073319
+Funny Recall: 0.6129032258064516	Funny Prec: 0.6368715083798883	 Funny F1:0.6246575342465753
+
+SampleType: TIME	Sample rate: 450	Sample Context: 3Model Type: SVM
+Avg samples: 3.4911946692051403
+Excite Recall: 0.5486935866983373	Excite Prec: 1.0	 Excite F1:0.7085889570552147
+Funny Recall: 0.585635359116022	Funny Prec: 0.6198830409356725	 Funny F1:0.6022727272727272
+
+SampleType: TIME	Sample rate: 450	Sample Context: 3Model Type: LSTM
+Avg samples: 3.4911946692051403
+Excite Recall: 0.680161943319838	Excite Prec: 0.6774193548387096	 Excite F1:0.6787878787878787
+Funny Recall: 0.5892857142857143	Funny Prec: 0.5755813953488372	 Funny F1:0.5823529411764706
+
+SampleType: TIME	Sample rate: 600	Sample Context: 0Model Type: SVM
+Avg samples: 2.780580675868634
+Excite Recall: 0.6056910569105691	Excite Prec: 0.6286919831223629	 Excite F1:0.6169772256728779
+Funny Recall: 0.5614035087719298	Funny Prec: 0.5333333333333333	 Funny F1:0.5470085470085471
+
+SampleType: TIME	Sample rate: 600	Sample Context: 0Model Type: LSTM
+Avg samples: 2.780580675868634
+Excite Recall: 0.625	Excite Prec: 0.6224066390041494	 Excite F1:0.6237006237006237
+Funny Recall: 0.6590909090909091	Funny Prec: 0.6444444444444445	 Funny F1:0.651685393258427
+
+SampleType: TIME	Sample rate: 600	Sample Context: 1Model Type: SVM
+Avg samples: 2.7758210376011423
+Excite Recall: 0.6217391304347826	Excite Prec: 0.6383928571428571	 Excite F1:0.6299559471365639
+Funny Recall: 0.6484848484848484	Funny Prec: 0.5721925133689839	 Funny F1:0.6079545454545453
+
+SampleType: TIME	Sample rate: 600	Sample Context: 1Model Type: LSTM
+Avg samples: 2.7758210376011423
+Excite Recall: 0.6470588235294118	Excite Prec: 0.652542372881356	 Excite F1:0.649789029535865
+Funny Recall: 0.6790123456790124	Funny Prec: 0.55	 Funny F1:0.6077348066298343
+
+SampleType: TIME	Sample rate: 600	Sample Context: 3Model Type: SVM
+Avg samples: 2.7701094716801524
+Excite Recall: 0.6541666666666667	Excite Prec: 0.6796536796536796	 Excite F1:0.6666666666666666
+Funny Recall: 0.4655581947743468	Funny Prec: 1.0	 Funny F1:0.6353322528363047
+
+SampleType: TIME	Sample rate: 600	Sample Context: 3Model Type: LSTM
+Avg samples: 2.7701094716801524
+Excite Recall: 0.6392156862745098	Excite Prec: 0.6848739495798319	 Excite F1:0.6612576064908722
+Funny Recall: 0.6404494382022472	Funny Prec: 0.5968586387434555	 Funny F1:0.6178861788617885
+
+SampleType: TIME	Sample rate: 600	Sample Context: 3	Model Type: SVM
+Avg samples: 2.7701094716801524
+Excite Recall: 0.6428571428571429	Excite Prec: 0.7370689655172413	 Excite F1:0.6867469879518072
+Funny Recall: 0.5909090909090909	Funny Prec: 0.639344262295082	 Funny F1:0.6141732283464568
+
+SampleType: SCENE_DETECT	Sample rate: 1	Sample Context: 0	Model Type: SVM
+Avg samples: 23.26320799619229
+Excite Recall: 0.6519607843137255	Excite Prec: 0.5518672199170125	 Excite F1:0.597752808988764
+Funny Recall: 0.4406779661016949	Funny Prec: 0.44571428571428573	 Funny F1:0.44318181818181823
+
+SampleType: SCENE_DETECT	Sample rate: 1	Sample Context: 0	Model Type: LSTM
+Avg samples: 23.26320799619229
+Excite Recall: 0.658008658008658	Excite Prec: 0.6551724137931034	 Excite F1:0.6565874730021598
+Funny Recall: 0.6470588235294118	Funny Prec: 0.6470588235294118	 Funny F1:0.6470588235294118
+
+SampleType: SCENE_DETECT	Sample rate: 1	Sample Context: 1	Model Type: SVM
+Avg samples: 23.26320799619229
+Excite Recall: 0.6637168141592921	Excite Prec: 0.646551724137931	 Excite F1:0.6550218340611355
+Funny Recall: 0.6032608695652174	Funny Prec: 0.555	 Funny F1:0.5781250000000001
+
+SampleType: SCENE_DETECT	Sample rate: 1	Sample Context: 1	Model Type: LSTM
+Avg samples: 23.26320799619229
+Excite Recall: 0.6516393442622951	Excite Prec: 0.7130044843049327	 Excite F1:0.6809421841541756
+Funny Recall: 0.6555555555555556	Funny Prec: 0.6704545454545454	 Funny F1:0.6629213483146068
+
+SampleType: SCENE_DETECT	Sample rate: 1	Sample Context: 3	Model Type: SVM
+Avg samples: 23.26320799619229
+Excite Recall: 0.6136363636363636	Excite Prec: 0.5921052631578947	 Excite F1:0.6026785714285714
+Funny Recall: 0.5706214689265536	Funny Prec: 0.5459459459459459	 Funny F1:0.5580110497237568
+
+SampleType: SCENE_DETECT	Sample rate: 1	Sample Context: 3	Model Type: LSTM
+Avg samples: 23.26320799619229
+Excite Recall: 0.6313725490196078	Excite Prec: 0.706140350877193	 Excite F1:0.6666666666666665
+Funny Recall: 0.6927374301675978	Funny Prec: 0.6666666666666666	 Funny F1:0.6794520547945205
+
+SampleType: FIXED	Sample num: 10	Sample Context: 0	Model Type: SVM
+Avg samples: 10.0
+Excite Recall: 0.6271929824561403	Excite Prec: 0.5933609958506224	 Excite F1:0.6098081023454157
+Funny Recall: 0.5872093023255814	Funny Prec: 0.517948717948718	 Funny F1:0.5504087193460492
+
+SampleType: FIXED	Sample num: 10	Sample Context: 0	Model Type: LSTM
+Avg samples: 10.0
+Excite Recall: 0.6507936507936508	Excite Prec: 0.6833333333333333	 Excite F1:0.6666666666666666
+Funny Recall: 0.7016574585635359	Funny Prec: 0.6864864864864865	 Funny F1:0.6939890710382514
+
+SampleType: FIXED	Sample num: 30	Sample Context: 0	Model Type: SVM
+Avg samples: 30.0
+Excite Recall: 0.6129032258064516	Excite Prec: 0.5611814345991561	 Excite F1:0.5859030837004406
+Funny Recall: 0.47058823529411764	Funny Prec: 0.4808743169398907	 Funny F1:0.47567567567567565
+
+SampleType: FIXED	Sample num: 30	Sample Context: 0	Model Type: LSTM
+Avg samples: 30.0
+Excite Recall: 0.6519823788546255	Excite Prec: 0.6491228070175439	 Excite F1:0.6505494505494506
+Funny Recall: 0.6918604651162791	Funny Prec: 0.6432432432432432	 Funny F1:0.6666666666666666
+
+SampleType: FIXED	Sample num: 50	Sample Context: 0	Model Type: SVM
+Avg samples: 50.0
+Excite Recall: 0.5110132158590308	Excite Prec: 0.5420560747663551	 Excite F1:0.5260770975056689
+Funny Recall: 0.4292929292929293	Funny Prec: 0.46195652173913043	 Funny F1:0.44502617801047123
+
+SampleType: FIXED	Sample num: 50	Sample Context: 0	Model Type: LSTM
+Avg samples: 50.0
+Excite Recall: 0.6571428571428571	Excite Prec: 0.688034188034188	 Excite F1:0.6722338204592901
+Funny Recall: 0.7354497354497355	Funny Prec: 0.7393617021276596	 Funny F1:0.7374005305039787
+
+SampleType: FIXED	Sample num: 100	Sample Context: 0	Model Type: SVM
+Avg samples: 100.0
+Excite Recall: 0.5294117647058824	Excite Prec: 0.5391705069124424	 Excite F1:0.5342465753424658
+Funny Recall: 0.39690721649484534	Funny Prec: 0.41621621621621624	 Funny F1:0.4063324538258575
+
+SampleType: FIXED	Sample num: 100	Sample Context: 0	Model Type: LSTM
+Avg samples: 100.0
+Excite Recall: 0.6507936507936508	Excite Prec: 0.7192982456140351	 Excite F1:0.6833333333333335
+Funny Recall: 0.655367231638418	Funny Prec: 0.6666666666666666	 Funny F1:0.6609686609686609
+
+
+SampleType: TIME	Sample rate: 30	Sample Context: 0	Model Type: SVM
+Avg samples: 45.96097096620657	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.4627659574468085	Funny Prec: 0.46524064171123	 Funny F1:0.464
+
+SampleType: TIME	Sample rate: 30	Sample Context: 0	Model Type: SVM
+Avg samples: 45.96097096620657	Label: Excitement
+Excite Recall: 0.5895196506550219	Excite Prec: 0.5487804878048781	 Excite F1:0.5684210526315789
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 30	Sample Context: 0	Model Type: LSTM
+Avg samples: 45.96097096620657	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6931818181818182	Funny Prec: 0.6853932584269663	 Funny F1:0.6892655367231639
+
+SampleType: TIME	Sample rate: 30	Sample Context: 0	Model Type: LSTM
+Avg samples: 45.96097096620657	Label: Excitement
+Excite Recall: 0.624	Excite Prec: 0.6995515695067265	 Excite F1:0.6596194503171248
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 30	Sample Context: 1	Model Type: SVM
+Avg samples: 45.88100904331271	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.43523316062176165	Funny Prec: 0.4666666666666667	 Funny F1:0.45040214477211793
+
+SampleType: TIME	Sample rate: 30	Sample Context: 1	Model Type: SVM
+Avg samples: 45.88100904331271	Label: Excitement
+Excite Recall: 0.5674418604651162	Excite Prec: 0.5281385281385281	 Excite F1:0.547085201793722
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 30	Sample Context: 1	Model Type: LSTM
+Avg samples: 45.88100904331271	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6594594594594595	Funny Prec: 0.6853932584269663	 Funny F1:0.6721763085399449
+
+SampleType: TIME	Sample rate: 30	Sample Context: 1	Model Type: LSTM
+Avg samples: 45.88100904331271	Label: Excitement
+Excite Recall: 0.6244897959183674	Excite Prec: 0.7050691244239631	 Excite F1:0.6623376623376624
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 30	Sample Context: 3	Model Type: SVM
+Avg samples: 45.80437886720609	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.4463276836158192	Funny Prec: 0.4514285714285714	 Funny F1:0.44886363636363635
+
+SampleType: TIME	Sample rate: 30	Sample Context: 3	Model Type: SVM
+Avg samples: 45.80437886720609	Label: Excitement
+Excite Recall: 0.5643153526970954	Excite Prec: 0.591304347826087	 Excite F1:0.5774946921443738
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 30	Sample Context: 3	Model Type: LSTM
+Avg samples: 45.80437886720609	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.7191780821917808	Funny Prec: 0.5706521739130435	 Funny F1:0.6363636363636364
+
+SampleType: TIME	Sample rate: 30	Sample Context: 3	Model Type: LSTM
+Avg samples: 45.80437886720609	Label: Excitement
+Excite Recall: 0.6276150627615062	Excite Prec: 0.6521739130434783	 Excite F1:0.6396588486140725
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 60	Sample Context: 0	Model Type: SVM
+Avg samples: 23.226558781532603	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.4350282485875706	Funny Prec: 0.4010416666666667	 Funny F1:0.41734417344173447
+
+SampleType: TIME	Sample rate: 60	Sample Context: 0	Model Type: SVM
+Avg samples: 23.226558781532603	Label: Excitement
+Excite Recall: 0.5775862068965517	Excite Prec: 0.5826086956521739	 Excite F1:0.58008658008658
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 60	Sample Context: 0	Model Type: LSTM
+Avg samples: 23.226558781532603	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.722972972972973	Funny Prec: 0.5691489361702128	 Funny F1:0.636904761904762
+
+SampleType: TIME	Sample rate: 60	Sample Context: 0	Model Type: LSTM
+Avg samples: 23.226558781532603	Label: Excitement
+Excite Recall: 0.6930232558139535	Excite Prec: 0.6313559322033898	 Excite F1:0.6607538802660753
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 60	Sample Context: 1	Model Type: SVM
+Avg samples: 23.1722989052832	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.48404255319148937	Funny Prec: 0.5229885057471264	 Funny F1:0.5027624309392266
+
+SampleType: TIME	Sample rate: 60	Sample Context: 1	Model Type: SVM
+Avg samples: 23.1722989052832	Label: Excitement
+Excite Recall: 0.5756302521008403	Excite Prec: 0.5661157024793388	 Excite F1:0.5708333333333333
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 60	Sample Context: 1	Model Type: LSTM
+Avg samples: 23.1722989052832	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6964285714285714	Funny Prec: 0.6358695652173914	 Funny F1:0.6647727272727273
+
+SampleType: TIME	Sample rate: 60	Sample Context: 1	Model Type: LSTM
+Avg samples: 23.1722989052832	Label: Excitement
+Excite Recall: 0.6594827586206896	Excite Prec: 0.6623376623376623	 Excite F1:0.6609071274298055
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 60	Sample Context: 3	Model Type: SVM
+Avg samples: 23.118039029033792	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.5137614678899083	Funny Prec: 0.632768361581921	 Funny F1:0.5670886075949368
+
+SampleType: TIME	Sample rate: 60	Sample Context: 3	Model Type: SVM
+Avg samples: 23.118039029033792	Label: Excitement
+Excite Recall: 0.6008403361344538	Excite Prec: 0.5789473684210527	 Excite F1:0.5896907216494846
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 60	Sample Context: 3	Model Type: LSTM
+Avg samples: 23.118039029033792	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.7125748502994012	Funny Prec: 0.6397849462365591	 Funny F1:0.6742209631728046
+
+SampleType: TIME	Sample rate: 60	Sample Context: 3	Model Type: LSTM
+Avg samples: 23.118039029033792	Label: Excitement
+Excite Recall: 0.6583333333333333	Excite Prec: 0.6869565217391305	 Excite F1:0.672340425531915
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 90	Sample Context: 0	Model Type: SVM
+Avg samples: 15.659209900047596	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.4387755102040816	Funny Prec: 0.49710982658959535	 Funny F1:0.46612466124661245
+
+SampleType: TIME	Sample rate: 90	Sample Context: 0	Model Type: SVM
+Avg samples: 15.659209900047596	Label: Excitement
+Excite Recall: 0.5470085470085471	Excite Prec: 0.5333333333333333	 Excite F1:0.540084388185654
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 90	Sample Context: 0	Model Type: LSTM
+Avg samples: 15.659209900047596	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.7119565217391305	Funny Prec: 0.6717948717948717	 Funny F1:0.6912928759894459
+
+SampleType: TIME	Sample rate: 90	Sample Context: 0	Model Type: LSTM
+Avg samples: 15.659209900047596	Label: Excitement
+Excite Recall: 0.6623376623376623	Excite Prec: 0.6375	 Excite F1:0.6496815286624203
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 90	Sample Context: 1	Model Type: SVM
+Avg samples: 15.612089481199428	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.5056818181818182	Funny Prec: 0.5114942528735632	 Funny F1:0.5085714285714286
+
+SampleType: TIME	Sample rate: 90	Sample Context: 1	Model Type: SVM
+Avg samples: 15.612089481199428	Label: Excitement
+Excite Recall: 0.6215139442231076	Excite Prec: 0.6610169491525424	 Excite F1:0.6406570841889118
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 90	Sample Context: 1	Model Type: LSTM
+Avg samples: 15.612089481199428	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.675531914893617	Funny Prec: 0.679144385026738	 Funny F1:0.6773333333333333
+
+SampleType: TIME	Sample rate: 90	Sample Context: 1	Model Type: LSTM
+Avg samples: 15.612089481199428	Label: Excitement
+Excite Recall: 0.6324110671936759	Excite Prec: 0.7048458149779736	 Excite F1:0.6666666666666666
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 90	Sample Context: 3	Model Type: SVM
+Avg samples: 15.570680628272251	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.5628415300546448	Funny Prec: 0.5786516853932584	 Funny F1:0.5706371191135734
+
+SampleType: TIME	Sample rate: 90	Sample Context: 3	Model Type: SVM
+Avg samples: 15.570680628272251	Label: Excitement
+Excite Recall: 0.6405529953917051	Excite Prec: 0.5743801652892562	 Excite F1:0.6056644880174292
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 90	Sample Context: 3	Model Type: LSTM
+Avg samples: 15.570680628272251	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.65625	Funny Prec: 0.6923076923076923	 Funny F1:0.6737967914438503
+
+SampleType: TIME	Sample rate: 90	Sample Context: 3	Model Type: LSTM
+Avg samples: 15.570680628272251	Label: Excitement
+Excite Recall: 0.6425531914893617	Excite Prec: 0.6832579185520362	 Excite F1:0.6622807017543859
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 150	Sample Context: 0	Model Type: SVM
+Avg samples: 9.580675868633984	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.5051546391752577	Funny Prec: 0.532608695652174	 Funny F1:0.5185185185185186
+
+SampleType: TIME	Sample rate: 150	Sample Context: 0	Model Type: SVM
+Avg samples: 9.580675868633984	Label: Excitement
+Excite Recall: 0.5879828326180258	Excite Prec: 0.5879828326180258	 Excite F1:0.5879828326180258
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 150	Sample Context: 0	Model Type: LSTM
+Avg samples: 9.580675868633984	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.7189542483660131	Funny Prec: 0.5913978494623656	 Funny F1:0.6489675516224189
+
+SampleType: TIME	Sample rate: 150	Sample Context: 0	Model Type: LSTM
+Avg samples: 9.580675868633984	Label: Excitement
+Excite Recall: 0.6548672566371682	Excite Prec: 0.6351931330472103	 Excite F1:0.6448801742919389
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 150	Sample Context: 1	Model Type: SVM
+Avg samples: 9.544978581627797	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6060606060606061	Funny Prec: 0.5319148936170213	 Funny F1:0.56657223796034
+
+SampleType: TIME	Sample rate: 150	Sample Context: 1	Model Type: SVM
+Avg samples: 9.544978581627797	Label: Excitement
+Excite Recall: 0.5992063492063492	Excite Prec: 0.648068669527897	 Excite F1:0.6226804123711339
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 150	Sample Context: 1	Model Type: LSTM
+Avg samples: 9.544978581627797	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6549707602339181	Funny Prec: 0.6666666666666666	 Funny F1:0.6607669616519175
+
+SampleType: TIME	Sample rate: 150	Sample Context: 1	Model Type: LSTM
+Avg samples: 9.544978581627797	Label: Excitement
+Excite Recall: 0.6378600823045267	Excite Prec: 0.6768558951965066	 Excite F1:0.6567796610169492
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 150	Sample Context: 3	Model Type: SVM
+Avg samples: 9.513564969062351	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6467391304347826	Funny Prec: 0.6397849462365591	 Funny F1:0.6432432432432432
+
+SampleType: TIME	Sample rate: 150	Sample Context: 3	Model Type: SVM
+Avg samples: 9.513564969062351	Label: Excitement
+Excite Recall: 0.6639004149377593	Excite Prec: 0.6611570247933884	 Excite F1:0.6625258799171843
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 150	Sample Context: 3	Model Type: LSTM
+Avg samples: 9.513564969062351	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6329787234042553	Funny Prec: 0.6611111111111111	 Funny F1:0.6467391304347826
+
+SampleType: TIME	Sample rate: 150	Sample Context: 3	Model Type: LSTM
+Avg samples: 9.513564969062351	Label: Excitement
+Excite Recall: 0.6868686868686869	Excite Prec: 0.5862068965517241	 Excite F1:0.6325581395348836
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 300	Sample Context: 0	Model Type: SVM
+Avg samples: 5.060923369823893	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.5529411764705883	Funny Prec: 0.48704663212435234	 Funny F1:0.5179063360881544
+
+SampleType: TIME	Sample rate: 300	Sample Context: 0	Model Type: SVM
+Avg samples: 5.060923369823893	Label: Excitement
+Excite Recall: 0.6138211382113821	Excite Prec: 0.6565217391304348	 Excite F1:0.634453781512605
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 300	Sample Context: 0	Model Type: LSTM
+Avg samples: 5.060923369823893	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.7317073170731707	Funny Prec: 0.625	 Funny F1:0.6741573033707865
+
+SampleType: TIME	Sample rate: 300	Sample Context: 0	Model Type: LSTM
+Avg samples: 5.060923369823893	Label: Excitement
+Excite Recall: 0.6538461538461539	Excite Prec: 0.6401673640167364	 Excite F1:0.6469344608879491
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 300	Sample Context: 1	Model Type: SVM
+Avg samples: 5.043312708234174	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6021505376344086	Funny Prec: 0.6120218579234973	 Funny F1:0.6070460704607046
+
+SampleType: TIME	Sample rate: 300	Sample Context: 1	Model Type: SVM
+Avg samples: 5.043312708234174	Label: Excitement
+Excite Recall: 0.6455696202531646	Excite Prec: 0.6455696202531646	 Excite F1:0.6455696202531646
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 300	Sample Context: 1	Model Type: LSTM
+Avg samples: 5.043312708234174	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6758241758241759	Funny Prec: 0.643979057591623	 Funny F1:0.6595174262734583
+
+SampleType: TIME	Sample rate: 300	Sample Context: 1	Model Type: LSTM
+Avg samples: 5.043312708234174	Label: Excitement
+Excite Recall: 0.6822033898305084	Excite Prec: 0.6598360655737705	 Excite F1:0.6708333333333334
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 300	Sample Context: 3	Model Type: SVM
+Avg samples: 5.021418372203713	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6645569620253164	Funny Prec: 0.6104651162790697	 Funny F1:0.6363636363636364
+
+SampleType: TIME	Sample rate: 300	Sample Context: 3	Model Type: SVM
+Avg samples: 5.021418372203713	Label: Excitement
+Excite Recall: 0.6259541984732825	Excite Prec: 0.7256637168141593	 Excite F1:0.6721311475409836
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 300	Sample Context: 3	Model Type: LSTM
+Avg samples: 5.021418372203713	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.7094972067039106	Funny Prec: 0.6684210526315789	 Funny F1:0.6883468834688347
+
+SampleType: TIME	Sample rate: 300	Sample Context: 3	Model Type: LSTM
+Avg samples: 5.021418372203713	Label: Excitement
+Excite Recall: 0.676	Excite Prec: 0.6869918699186992	 Excite F1:0.6814516129032258
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 450	Sample Context: 0	Model Type: SVM
+Avg samples: 3.530223702998572	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6097560975609756	Funny Prec: 0.4975124378109453	 Funny F1:0.547945205479452
+
+SampleType: TIME	Sample rate: 450	Sample Context: 0	Model Type: SVM
+Avg samples: 3.530223702998572	Label: Excitement
+Excite Recall: 0.6115384615384616	Excite Prec: 0.691304347826087	 Excite F1:0.6489795918367347
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 450	Sample Context: 0	Model Type: LSTM
+Avg samples: 3.530223702998572	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.578125	Funny Prec: 0.6201117318435754	 Funny F1:0.5983827493261455
+
+SampleType: TIME	Sample rate: 450	Sample Context: 0	Model Type: LSTM
+Avg samples: 3.530223702998572	Label: Excitement
+Excite Recall: 0.6459143968871596	Excite Prec: 0.7033898305084746	 Excite F1:0.6734279918864098
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 450	Sample Context: 1	Model Type: SVM
+Avg samples: 3.510233222275107	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6358381502890174	Funny Prec: 0.5789473684210527	 Funny F1:0.6060606060606061
+
+SampleType: TIME	Sample rate: 450	Sample Context: 1	Model Type: SVM
+Avg samples: 3.510233222275107	Label: Excitement
+Excite Recall: 0.6388888888888888	Excite Prec: 0.6652892561983471	 Excite F1:0.6518218623481782
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 450	Sample Context: 1	Model Type: LSTM
+Avg samples: 3.510233222275107	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6832298136645962	Funny Prec: 0.5978260869565217	 Funny F1:0.6376811594202898
+
+SampleType: TIME	Sample rate: 450	Sample Context: 1	Model Type: LSTM
+Avg samples: 3.510233222275107	Label: Excitement
+Excite Recall: 0.6523809523809524	Excite Prec: 0.5614754098360656	 Excite F1:0.6035242290748899
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 450	Sample Context: 3	Model Type: SVM
+Avg samples: 3.4911946692051403	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6335403726708074	Funny Prec: 0.5698324022346368	 Funny F1:0.6000000000000001
+
+SampleType: TIME	Sample rate: 450	Sample Context: 3	Model Type: SVM
+Avg samples: 3.4911946692051403	Label: Excitement
+Excite Recall: 0.6390041493775933	Excite Prec: 0.6609442060085837	 Excite F1:0.6497890295358649
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 450	Sample Context: 3	Model Type: LSTM
+Avg samples: 3.4911946692051403	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.697986577181208	Funny Prec: 0.5621621621621622	 Funny F1:0.6227544910179641
+
+SampleType: TIME	Sample rate: 450	Sample Context: 3	Model Type: LSTM
+Avg samples: 3.4911946692051403	Label: Excitement
+Excite Recall: 0.5938697318007663	Excite Prec: 0.6739130434782609	 Excite F1:0.6313645621181263
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 600	Sample Context: 0	Model Type: SVM
+Avg samples: 2.780580675868634	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.5674157303370787	Funny Prec: 0.5580110497237569	 Funny F1:0.5626740947075209
+
+SampleType: TIME	Sample rate: 600	Sample Context: 0	Model Type: SVM
+Avg samples: 2.780580675868634	Label: Excitement
+Excite Recall: 0.6196078431372549	Excite Prec: 0.6869565217391305	 Excite F1:0.6515463917525773
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 600	Sample Context: 0	Model Type: LSTM
+Avg samples: 2.780580675868634	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6012658227848101	Funny Prec: 0.5080213903743316	 Funny F1:0.5507246376811595
+
+SampleType: TIME	Sample rate: 600	Sample Context: 0	Model Type: LSTM
+Avg samples: 2.780580675868634	Label: Excitement
+Excite Recall: 0.6543778801843319	Excite Prec: 0.5966386554621849	 Excite F1:0.6241758241758241
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 600	Sample Context: 1	Model Type: SVM
+Avg samples: 2.7758210376011423	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6107784431137725	Funny Prec: 0.5795454545454546	 Funny F1:0.5947521865889213
+
+SampleType: TIME	Sample rate: 600	Sample Context: 1	Model Type: SVM
+Avg samples: 2.7758210376011423	Label: Excitement
+Excite Recall: 0.6224899598393574	Excite Prec: 0.6623931623931624	 Excite F1:0.6418219461697722
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 600	Sample Context: 1	Model Type: LSTM
+Avg samples: 2.7758210376011423	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.631578947368421	Funny Prec: 0.5806451612903226	 Funny F1:0.6050420168067226
+
+SampleType: TIME	Sample rate: 600	Sample Context: 1	Model Type: LSTM
+Avg samples: 2.7758210376011423	Label: Excitement
+Excite Recall: 0.6932773109243697	Excite Prec: 0.6846473029045643	 Excite F1:0.6889352818371607
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 600	Sample Context: 3	Model Type: SVM
+Avg samples: 2.7701094716801524	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.6052631578947368	Funny Prec: 0.6424581005586593	 Funny F1:0.6233062330623307
+
+SampleType: TIME	Sample rate: 600	Sample Context: 3	Model Type: SVM
+Avg samples: 2.7701094716801524	Label: Excitement
+Excite Recall: 0.6296296296296297	Excite Prec: 0.6071428571428571	 Excite F1:0.6181818181818182
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 600	Sample Context: 3	Model Type: LSTM
+Avg samples: 2.7701094716801524	Label: Funny
+Excite Recall: 0	Excite Prec: 0	 Excite F1:0
+Funny Recall: 0.5988700564971752	Funny Prec: 0.6198830409356725	 Funny F1:0.6091954022988506
+
+SampleType: TIME	Sample rate: 600	Sample Context: 3	Model Type: LSTM
+Avg samples: 2.7701094716801524	Label: Excitement
+Excite Recall: 0.6211453744493393	Excite Prec: 0.6130434782608696	 Excite F1:0.6170678336980308
+Funny Recall: 0	Funny Prec: 0	 Funny F1:0
+
+SampleType: TIME	Sample rate: 30	Sample Context: 0	Model Type: SVM
+Avg samples: 45.96097096620657	Label: Combined	VAE:True
+Excite Recall: 1.0	Excite Prec: 0.0044444444444444444	 Excite F1:0.008849557522123894
+Funny Recall: 1.0	Funny Prec: 0.005235602094240838	 Funny F1:0.010416666666666668
+
+SampleType: TIME	Sample rate: 30	Sample Context: 0	Model Type: LSTM
+Avg samples: 45.96097096620657	Label: Combined	VAE:True
+Excite Recall: 1.0	Excite Prec: 0.004149377593360996	 Excite F1:0.008264462809917356
+Funny Recall: 1.0	Funny Prec: 0.0053475935828877	 Funny F1:0.010638297872340425
+

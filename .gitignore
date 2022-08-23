@@ -1,6 +1,5 @@
 /.idea/train_value_CLIP_600.pickle
 /.idea/train_data_encoded_CLIP_30.pickle
-/.idea/train_value_CLIP.pickle
 /.idea/train_value_encoded_CLIP_SD.pickle
 /.idea/vae_encoder.rar
 /.idea/train_value_con2d.pickle
@@ -15,7 +14,6 @@
 /.idea/images100.zip
 /.idea/train_value_CLIP_150.pickle
 /.idea/train_value_CLIP_60_1.pickle
-/.idea/train_text.pickle
 /.idea/vae_train_cache.data-00000-of-00001
 /Deeplearningstudy.iml
 /.idea/train_data_encoded_CLIP_600.pickle
@@ -47,7 +45,6 @@
 /.idea/ConvLSTM2d_model/
 /.idea/train_value_CLIP_300_1.pickle
 /.idea/train_data_encoded_CLIP_30_1.pickle
-/.idea/train_data_encoded_CLIP.pickle
 /.idea/train_data_encoded_CLIP_60_1.pickle
 /.idea/train_value_CLIP_L5.pickle
 /.idea/train_value_CLIP_300.pickle
